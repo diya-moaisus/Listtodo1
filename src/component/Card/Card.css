@@ -1,0 +1,34 @@
+.card{
+    margin: 1rem;
+    width: 22rem;
+    height: 10rem;
+    background-color: rgb(190, 211, 238);
+}
+
+.card-header{
+    height: 2rem;
+    background-color: rgb(233, 229, 236);
+}
+
+.card-btn{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    /* height: 6rem; */
+    padding: 3rem 0;
+    margin-bottom: 1rem;
+}
+
+.butn{
+    color: rgb(41, 39, 43);
+    background-color: #9d95ca;
+    border: none;
+
+
+
+
+}
+
+.text-incomplete{
+    padding: 5px 0;
+}
