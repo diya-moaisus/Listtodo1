@@ -1,9 +1,39 @@
 .bg{
-    background-image: linear-gradient(to right,#3E5151 , #DECBA4);
-    height: 10rem;
+    /* background-image: linear-gradient(to right,#20002c, #cbb4d4); */
+    /* background-image: linear-gradient(to right, #42275a,  #734b6d); */
+    /* background-image: linear-gradient(to right, #6441a5 ,  #2a0845); */
+    background-color: rgb(135, 105, 160);
+
+
+    height: 9rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.button{
+    color: rgb(2, 19, 34);
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    width: 100px;  
+    border: none;
+}
+
+.headers{
+    display: flex;
+    justify-content: space-around;
+}
+.btw{
+    margin: 1rem 0 ;
+}
+
+.search{
+    height: 2rem;
+    padding: 1vh;
+    border-radius: 8px;
+    border: none;
 }
 
 .modal{
@@ -17,23 +47,39 @@
 
 .slider{
     margin-top: 3rem;
+    z-index: 1;
 }
 
-.search{
-    margin: 1rem 0;
-    border-radius: 5%;
-}
-
-.card-wrapp{
+.card-container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    justify-content:space-between;
+    height: 87vh;
+    overflow: scroll;
+}
+
+.img-list{
+    position: fixed;
+}
+
+.card-wrap{
+    margin-top: 25vh;
+}
+
+.number-of-card{
+    padding-left: 2vh;
+    color: white;
 }
 
 .select-card{
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
 /* =------------------------- */
 

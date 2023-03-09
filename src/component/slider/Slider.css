@@ -8,7 +8,12 @@
     display: flex;
     justify-content: center;
 }
-
+.paggination{
+    background-color:  #9d95ca;
+    height: 100%;
+    width: 20%;
+    
+}
 .next{
     display: flex;
     justify-content: center;

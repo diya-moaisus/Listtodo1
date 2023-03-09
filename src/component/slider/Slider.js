@@ -50,7 +50,7 @@ const Slider = ({ page, changeToggle }) => {
         <>
             <div className="container">
                 <div className='prev'>
-                    <button className='btn btn-primary' onClick={() => buttonClick("prev")}>prev</button>
+                    <button className="paggination " onClick={() => buttonClick("prev")}>prev</button>
                 </div>
                 <div className='pagenumber'>
                     {/* <select value={counter} className="dropdown text-center" onChange={(e)=>setCounter(e.target.value)}>
@@ -61,7 +61,7 @@ const Slider = ({ page, changeToggle }) => {
                     <span className="dropdown text-center">{counter}</span>
                 </div>
                 <div className='next'>
-                    <button className="btn btn-primary" onClick={() => buttonClick("next")} >next</button>
+                    <button className="paggination"  onClick={() => buttonClick("next")} >next</button>
                 </div>
             </div>
         </>
